@@ -27,13 +27,13 @@ body {
   --100: 8px;
   --50: 4px;
 
-  --text-preset-1: 24px;
-  --text-preset-2: 12px;
+  --text-preset-1: 26px;
+  --text-preset-2: 14px;
 }
 
 /* DESKTOP CONTAINER */
 .container {
-  width: 384px;
+  width: 350px;
   background-color: var(--gray-800);
   padding: var(--500);
   border-radius: 12px;
@@ -42,14 +42,14 @@ body {
 /* MOBILE CONTAINER */
 @media (max-width: 768px) {
   .container {
-    width: 327px;
+    width: 300px;
   }
 }
 
 /* TABLET CONTAINER */
 @media (min-width: 768px) and (max-width: 1200px) {
   .container {
-    width: 456px;
+    width: 450px;
   }
 }
 
@@ -78,6 +78,7 @@ body {
 
 .name {
   font-size: var(--text-preset-1);
+  font-weight: 600;
   margin: 0;
 }
 
