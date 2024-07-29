@@ -33,7 +33,7 @@ body {
 
 /* DESKTOP CONTAINER */
 .container {
-  width: 350px;
+  width: 325px;
   background-color: var(--gray-800);
   padding: var(--500);
   border-radius: 12px;
@@ -84,6 +84,7 @@ body {
 
 .location {
   font-size: var(--text-preset-2);
+  font-weight: 600;
   color: var(--green);
   margin: 0;
 }
